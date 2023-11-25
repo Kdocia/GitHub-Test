@@ -1,6 +1,6 @@
 from hashlib import sha256
 
-with open('ERROpass.txt', 'r') as datapass:
+with open('pass.txt', 'r') as datapass:
     senha = datapass.read()
 
 
