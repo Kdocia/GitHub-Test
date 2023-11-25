@@ -1,6 +1,6 @@
 from hashlib import sha256
 
-with open('ERROpass.txt', 'r') as datapass:
+with open('pass.txt', 'r') as datapass:
     senha = datapass.read()
 
 
@@ -12,6 +12,6 @@ hash_senha = sha256(senha.encode()).hexdigest()
 
 #Comparar as senhas:
 if hash_senha == cripto_senha:
-    print(f'A senha {senha}está correta ')
+    print(f'A senha {senha} está correta ')
 else:
     print(f'ERRO: A senha {senha} está incorreta')
