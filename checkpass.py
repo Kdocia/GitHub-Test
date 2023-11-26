@@ -17,6 +17,7 @@ hash_senha = sha256(senha.encode()).hexdigest()
 else:
     print(f'ERRO: A senha {senha} está incorreta')'''
 
+
 #teste realizado pelo pytest
 def test_answer():
     assert hash_senha == cripto_senha
