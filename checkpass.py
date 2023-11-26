@@ -17,6 +17,7 @@ if hash_senha == cripto_senha:
 else:
     print(f'ERRO: A senha {senha} está incorreta')
 
+
 #teste realizado pelo pytest
 '''def test_answer():
     assert hash_senha == cripto_senha'''
