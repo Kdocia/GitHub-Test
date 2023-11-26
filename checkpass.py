@@ -12,11 +12,11 @@ with open('criptoPass.txt', 'r') as datahash:
 hash_senha = sha256(senha.encode()).hexdigest()
 
 #Comparar a senha fornecida pelo usuário com a senha armazenada:
-if hash_senha == cripto_senha:
+'''if hash_senha == cripto_senha:
     print(f'A senha {senha} está correta ')
 else:
-    print(f'ERRO: A senha {senha} está incorreta')
+    print(f'ERRO: A senha {senha} está incorreta')'''
 
 #teste realizado pelo pytest
-'''def test_answer():
-    assert hash_senha == cripto_senha'''
+def test_answer():
+    assert hash_senha == cripto_senha
