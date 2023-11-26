@@ -37,6 +37,3 @@ jobs:
     - name: Test with pytest
       run: |
         pytest checkpass.py
-    - name: Test with python
-      run: |
-        python checkpass.py
