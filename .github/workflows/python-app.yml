@@ -37,6 +37,6 @@ jobs:
     - name: Test with python
       run: |
         python checkpass.py
-    - name: Test with python
+    - name: Test with pytest
       run: |
-        python checkpass.py
+        pytest checkpass.py
